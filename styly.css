@@ -1,0 +1,35 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #c8c9ac;
+}
+.menu li {
+    display: inline-block;
+}
+.menu li a {
+    display: block;
+    padding: 0.8rem 1.5rem;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu li a:hover {
+    background: #928b61;
+    transition: background 0.5s ease-in-out;
+}
+
+.content {
+    max-width: 33%;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
